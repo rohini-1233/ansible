@@ -1,0 +1,7 @@
+---
+- name: This playbook is used to restart sshd daemon and test the dry run
+  hosts: dev
+  tasks:
+    - service:
+        name: sshd
+        state: restarted

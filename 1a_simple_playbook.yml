@@ -1,0 +1,16 @@
+---
+- name: This is Simple Playbook
+  hosts:  all
+  tasks:
+    - name: This is Debug tasks 1
+      debug:
+        msg: "Hello from task 1"
+    - name: This is Debug tasks 2
+      debug:
+        msg: "Hello from task 2"
+    - name: This is Debug tasks 3
+      debug:
+        msg: "Hello from task 3"
+    - name: This is Debug tasks 4
+      debug:
+        msg: "Hello from task 4"
